@@ -8,7 +8,7 @@
       "git":
       {
         "gitBranch": ["master"],
-        "gitAddress": ["https://github.com/osu-crypto/BaRK-OPRF.git"]
+        "gitAddress": ["https://github.com/nitrieu/BaRK-OPRF"]
       }
     }
   },
