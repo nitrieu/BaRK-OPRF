@@ -2,8 +2,8 @@
 // Created by liork on 8/22/18.
 //
 
-#ifndef ABY_MATRIXMEASUREMENT_H
-#define ABY_MATRIXMEASUREMENT_H
+#ifndef BARKOPRF_MATRIXMEASUREMENT_H
+#define BARKOPRF_MATRIXMEASUREMENT_H
 
 #include <string>
 #include <chrono>
@@ -100,4 +100,4 @@ public:
     }
 };
 
-#endif //ABY_MATRIXMEASUREMENT_H
+#endif //BARKOPRF_MATRIXMEASUREMENT_H

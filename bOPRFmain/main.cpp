@@ -9,6 +9,7 @@ using namespace std;
 #include "Common/Log.h"
 #include "Common/Timer.h"
 #include "Crypto/PRNG.h"
+#include "../MATRIX/MatrixMeasurement.h"
 using namespace bOPRF;
 #include <fstream>
 
@@ -455,8 +456,11 @@ int main(int argc, char** argv)
 	thrd.join();
 	return 0;*/
 
+	
+	std::vector<string> subTaskNames{"BARK-OPRF", "ExecCircuit"};
 
-
+	MatrixMeasurement log(4, argv, subTaskNames, 1);
+	
 	if (argc == 2 && argv[1][0] == '-' && argv[1][1] == 't') {
 		BopTest();
 	}
