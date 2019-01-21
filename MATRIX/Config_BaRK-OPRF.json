@@ -1,0 +1,25 @@
+{
+  "protocol":"BaRK-OPRF",
+  "CloudProviders":
+  {
+    "local":
+    {
+      "numOfParties":2,
+      "git":
+      {
+        "gitBranch": ["master"],
+        "gitAddress": ["https://github.com/osu-crypto/BaRK-OPRF.git"]
+      }
+    }
+  },
+  "executableName": ["run.sh"],
+  "numOfRepetitions": 1,
+  "numOfInternalRepetitions": 1,
+  "IsPublished": "false",
+  "isExternal": "true",
+  "workingDirectory": ["~/BaRK-OPRF"],
+  "resultsDirectory": "~/MATRIX/ExperimentReport/Results",
+  "emails": ["ni2trieu@gmail.com"],
+  "institute":"Oregon State University"
+}
+
